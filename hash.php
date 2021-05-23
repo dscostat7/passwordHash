@@ -9,3 +9,5 @@ if (password_verify('password', $password)) { // Verificando se a string 'passwo
 } else {
     echo "Password incorrect!!" . PHP_EOL; 
 }
+
+echo "Sua senha está segura!!" . PHP_EOL;
